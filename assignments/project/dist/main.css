@@ -5,9 +5,6 @@ body {
   margin: 0 auto;
   font-size: 0.8em; }
 
-.icon {
-  display: none; }
-
 .divContainer {
   width: 20em;
   height: 21em;
@@ -40,15 +37,24 @@ a {
   text-overflow: ellipsis; }
 
 .lowerFooterSection {
-  color: #9A9A9A;
-  display: inline-block; }
+  color: #9A9A9A; }
+  .lowerFooterSection:after {
+    display: block;
+    content: ' ';
+    clear: both; }
   .lowerFooterSection .aShopName {
+    display: inline-block;
+    color: #9A9AA3;
     float: left; }
   .lowerFooterSection .aPrice {
+    display: inline-block;
+    color: #AEC15F;
     float: right; }
 
-.icon {
-  position: relative;
+.inactive {
+  display: none; }
+
+i {
   background: #FFFEFE;
   color: #CBC8C6;
   position: relative;

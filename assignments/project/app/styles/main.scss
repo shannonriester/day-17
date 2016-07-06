@@ -6,9 +6,6 @@ body {
     font-size: 0.8em;
     // display: inline-flex;
 }
-.icon {
-    display: none;
-}
 .divContainer {
     width: 20em;
     height: 21em;
@@ -45,18 +42,28 @@ a {
 }
 .lowerFooterSection {
     color: #9A9A9A;
-    display: inline-block;
+    &:after {
+        display: block;
+        content: ' ';
+        clear: both;
+    }
     .aShopName {
+        display: inline-block;
+        color: #9A9AA3;
         float: left;
     }
     .aPrice {
+        display: inline-block;
+        color: #AEC15F;
         float: right;
     }
 }
+.inactive {
+  display: none;
+}
 
-.icon {
-    position: relative;
-    background: #FFFEFE;
+i {
+    background: #FFFEFE,;
     color: #CBC8C6;
     position: relative;
     padding: 2%;

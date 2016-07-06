@@ -31,7 +31,7 @@ a {
 }
 .aImageIcons {
     height: 0;
-    background: #FFF;
+// background: #FFF;
 }
 .aTitle {
     width: 19em;
@@ -58,14 +58,17 @@ a {
         float: right;
     }
 }
-.inactive {
-  display: none;
-}
+// .inactive {
+//   display: none;
+// }
 
 i {
-    background: #FFFEFE,;
-    color: #CBC8C6;
-    position: relative;
-    padding: 2%;
-    border-radius: 10%;
+  background: #FFF;
+color: #CBC8C6;
+position: relative;
+padding: 2%;
+border-radius: 10%;
+top: 2.5em;
+left: 15.5em;
+margin: 0 .1rem;
 }

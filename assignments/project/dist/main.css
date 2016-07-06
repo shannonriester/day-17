@@ -26,8 +26,7 @@ a {
   color: black; }
 
 .aImageIcons {
-  height: 0;
-  background: #FFF; }
+  height: 0; }
 
 .aTitle {
   width: 19em;
@@ -51,14 +50,14 @@ a {
     color: #AEC15F;
     float: right; }
 
-.inactive {
-  display: none; }
-
 i {
-  background: #FFFEFE;
+  background: #FFF;
   color: #CBC8C6;
   position: relative;
   padding: 2%;
-  border-radius: 10%; }
+  border-radius: 10%;
+  top: 2.5em;
+  left: 15.5em;
+  margin: 0 .1rem; }
 
 /*# sourceMappingURL=main.css.map */
